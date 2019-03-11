@@ -39,7 +39,7 @@ window.DatoCmsPlugin.init().then((plugin) => {
     }
 
     handleSelect = (product) => {
-      plugin.setFieldValue(plugin.fieldPath, product.attributes.code);
+      plugin.setFieldValue(plugin.fieldPath, product.attributes.id);
     }
 
     handleReset = () => {
